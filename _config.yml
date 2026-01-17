@@ -56,9 +56,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
+  name   : "Rupesh Sankhala"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "I am better experienced in person. Although I like Maths, football, finance, reading (performative) and knowing about new things. And I ask a lot of questions (like a lot)."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
