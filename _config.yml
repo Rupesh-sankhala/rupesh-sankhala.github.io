@@ -15,8 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: My website ig
 email:
-description: >- # this means to ignore newlines until "baseurl:"
-I am better experienced in person. Although I like Maths, football, finance, reading (performative) and knowing about new things. And I ask a lot of questions (like a lot).
+description: "I am better experienced in person. Although I like Maths, football, finance, reading (performative) and knowing about new things. And I ask a lot of questions (like a lot)."
 twitter_username: username
 github_username: Rupesh-Sankhala
 minimal_mistakes_skin: default
