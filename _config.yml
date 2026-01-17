@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: My website ig
+title: Rupesh here
 email:
 description: "I am better experienced in person. Although I like Maths, football, finance, reading (performative) and knowing about new things. And I ask a lot of questions (like a lot)."
-twitter_username: username
+twitter_username: not_there
 github_username: Rupesh-Sankhala
 minimal_mistakes_skin: default
 search: true
@@ -83,9 +83,13 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/"
+header_pages:
+  - _pages/projects.md
+  - _pages/writing.md
+  - _pages/about.md
+
 
 defaults:
-  # _posts
   - scope:
       path: ""
       type: posts
@@ -93,20 +97,11 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments: false
       share: true
-      related: true
-  # _pages
   - scope:
       path: "_pages"
       type: pages
     values:
       layout: single
       author_profile: true
-
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
